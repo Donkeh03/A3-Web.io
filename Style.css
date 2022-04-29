@@ -1,0 +1,182 @@
+.Bottom-text{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+p{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}
+a{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;}
+h3{color:white}
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid white;
+    border-right: none;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: white;
+    background-color: transparent;
+}
+  
+.searchTerm:focus{
+    color: white;
+}
+  
+.searchButton {
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    background: transparent;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.Glass{
+    align-self: center;
+}
+
+.wrap{
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 100px;
+}
+
+
+.w3-col{width: 20%;}
+
+body {
+    background-color: rgb(10, 10, 10);
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 22.5%;
+    height: 25%;
+    padding: 50px 10px;
+}
+
+.column-b {
+    float: left;
+    width: 24.25%;
+    height: 25%;
+    padding: 50px 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: -25px -5px;}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.4);
+    padding: 16px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: white;
+    border-radius: 16px;
+    display: block;
+    align-self:center;
+    color:rgb(255, 255, 255);
+    transition-duration: 0.35s;
+}
+
+.card a{
+    font-size: 100%;
+}
+
+
+.ratings { display:block;margin:15px;}
+.ratings span { display:block;float:right;width:50%;margin-left:15px;}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 1);
+    padding: 16px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: white;
+    border-radius: 16px;
+    color:rgb(255, 255, 255);
+    transform: translate(0,-15px);
+    transition-duration: 0.5s
+}
+
+.review-text{
+    font-size: large;
+}
+
+.game-img {
+    width: auto;
+    max-width: 99%;
+    height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 90%;
+      display: block;
+      margin-bottom: 20px;
+}
+}
+
+.About-title h1{
+    text-align: center;
+    font-size: 64px;
+}
+
+.About-title h3{
+    text-align: center;
+    padding-top: 10px;
+}
+
+form{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 1);
+    padding: 16px;
+    width: fit-content;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: white;
+    border-radius: 16px;
+    color:white;
+    font-family:"Segoe UI",Arial,sans-serif;font-weight:400;
+}
+
+textarea{
+    font-family:"Segoe UI",Arial,sans-serif;font-weight:400;
+}
+
+.jesus{
+   font-size: 1px;
+   color:rgb(71, 71, 71);
+}
